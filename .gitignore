@@ -1,0 +1,34 @@
+# =============== Unity generated files ===============
+
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+UserSettings/
+MemoryCaptures/
+
+# =============== OS generated files ===================
+.DS_Store
+Thumbs.db
+
+# =============== Visual Studio/Jetbrains Rider =========
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+
+# =============== Others ================================
+*.apk
+*.aab
+*.xcuserstate
