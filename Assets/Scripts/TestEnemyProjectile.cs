@@ -5,6 +5,7 @@ using UnityEngine;
 public class TestEnemyProjectile : MonoBehaviour
 {
     public float damage;
+    private float time = 0;
     
     void OnTriggerEnter2D(Collider2D collision)
     {
@@ -13,5 +14,14 @@ public class TestEnemyProjectile : MonoBehaviour
             Destroy(gameObject);
         }
     }
-   
+    void Update()
+    {
+        time++;
+        if (time * Time.deltaTime > 10)
+        {
+            Destroy(gameObject);
+        }
+    }
+
+
 }
