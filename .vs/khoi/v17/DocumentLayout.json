@@ -3,7 +3,27 @@
   "WorkspaceRootPath": "C:\\GameMake\\khoi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|c:\\gamemake\\khoi\\assets\\scripts\\testspell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|c:\\gamemake\\khoi\\assets\\scripts\\npccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|C:\\GameMake\\khoi\\assets\\scripts\\playerspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|c:\\gamemake\\khoi\\assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|C:\\GameMake\\khoi\\assets\\scripts\\testprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\testprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|C:\\GameMake\\khoi\\assets\\scripts\\testenemyshooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\testenemyshooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|C:\\GameMake\\khoi\\assets\\scripts\\testspell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\testspell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,15 +31,11 @@
       "RelativeMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\testenemyprojectiles2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|c:\\gamemake\\khoi\\assets\\scripts\\testenemyshooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\testenemyshooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|C:\\GameMake\\khoi\\assets\\scripts\\testenemyprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\testenemyprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|c:\\gamemake\\khoi\\assets\\scripts\\testenemyshooting2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|C:\\GameMake\\khoi\\assets\\scripts\\testenemyshooting2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\testenemyshooting2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,11 +46,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "C:\\GameMake\\khoi\\Assets\\Scripts\\Bullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Bullet.cs",
+              "ToolTip": "C:\\GameMake\\khoi\\Assets\\Scripts\\Bullet.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Bullet.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T02:00:18.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TestProjectile.cs",
+              "DocumentMoniker": "C:\\GameMake\\khoi\\Assets\\Scripts\\TestProjectile.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TestProjectile.cs",
+              "ToolTip": "C:\\GameMake\\khoi\\Assets\\Scripts\\TestProjectile.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TestProjectile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T01:59:02.649Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "NPCController.cs",
+              "DocumentMoniker": "C:\\GameMake\\khoi\\Assets\\Scripts\\NPCController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NPCController.cs",
+              "ToolTip": "C:\\GameMake\\khoi\\Assets\\Scripts\\NPCController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NPCController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwEQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T01:57:22.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerSpawner.cs",
+              "DocumentMoniker": "C:\\GameMake\\khoi\\Assets\\Scripts\\PlayerSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerSpawner.cs",
+              "ToolTip": "C:\\GameMake\\khoi\\Assets\\Scripts\\PlayerSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerSpawner.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T01:56:47.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "TestSpell.cs",
               "DocumentMoniker": "C:\\GameMake\\khoi\\Assets\\Scripts\\TestSpell.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TestSpell.cs",
@@ -42,12 +109,11 @@
               "RelativeToolTip": "Assets\\Scripts\\TestSpell.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwBIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T01:07:14.649Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T01:07:14.649Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "TestEnemyShooting2.cs",
               "DocumentMoniker": "C:\\GameMake\\khoi\\Assets\\Scripts\\TestEnemyShooting2.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TestEnemyShooting2.cs",
@@ -55,12 +121,11 @@
               "RelativeToolTip": "Assets\\Scripts\\TestEnemyShooting2.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T00:39:48.407Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T00:39:48.407Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "TestEnemyProjectiles2.cs",
               "DocumentMoniker": "C:\\GameMake\\khoi\\Assets\\Scripts\\TestEnemyProjectiles2.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TestEnemyProjectiles2.cs",
@@ -68,25 +133,23 @@
               "RelativeToolTip": "Assets\\Scripts\\TestEnemyProjectiles2.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwB8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T00:29:18.261Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T00:29:18.261Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "TestEnemyShooting.cs",
               "DocumentMoniker": "C:\\GameMake\\khoi\\Assets\\Scripts\\TestEnemyShooting.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TestEnemyShooting.cs",
               "ToolTip": "C:\\GameMake\\khoi\\Assets\\Scripts\\TestEnemyShooting.cs",
               "RelativeToolTip": "Assets\\Scripts\\TestEnemyShooting.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAqwAUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T00:26:38.623Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T00:26:38.623Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "TestEnemyProjectile.cs",
               "DocumentMoniker": "C:\\GameMake\\khoi\\Assets\\Scripts\\TestEnemyProjectile.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TestEnemyProjectile.cs",
@@ -94,8 +157,7 @@
               "RelativeToolTip": "Assets\\Scripts\\TestEnemyProjectile.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T14:26:18.615Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-27T14:26:18.615Z"
             }
           ]
         }
