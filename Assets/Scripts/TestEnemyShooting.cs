@@ -27,6 +27,7 @@ public class TestEnemyShooting : MonoBehaviour
             Vector2 direction = (targetPos - myPos).normalized;
             spell.GetComponent<Rigidbody2D>().velocity = direction * projectileForce;
             spell.GetComponent<TestEnemyProjectile>().damage = Random.Range(minDamage, maxDamage);
+            
             StartCoroutine(ShootPlayer());
         }
     }
