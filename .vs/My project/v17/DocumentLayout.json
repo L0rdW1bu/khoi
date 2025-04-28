@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "E:\\Create with code\\My project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|e:\\create with code\\my project\\assets\\scripts\\testenemyprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|e:\\create with code\\my project\\assets\\scripts\\npccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|E:\\Create with code\\My project\\assets\\scripts\\playerspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|E:\\Create with code\\My project\\assets\\scripts\\testenemyprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\testenemyprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|e:\\create with code\\my project\\assets\\scripts\\testenemyshooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|E:\\Create with code\\My project\\assets\\scripts\\testenemyshooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\testenemyshooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -47,19 +55,43 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TestEnemyProjectile.cs",
-              "DocumentMoniker": "E:\\Create with code\\My project\\Assets\\Scripts\\TestEnemyProjectile.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TestEnemyProjectile.cs",
-              "ToolTip": "E:\\Create with code\\My project\\Assets\\Scripts\\TestEnemyProjectile.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TestEnemyProjectile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
+              "Title": "NPCController.cs",
+              "DocumentMoniker": "E:\\Create with code\\My project\\Assets\\Scripts\\NPCController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NPCController.cs",
+              "ToolTip": "E:\\Create with code\\My project\\Assets\\Scripts\\NPCController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NPCController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T10:58:52.1Z",
+              "WhenOpened": "2025-04-28T08:17:36.269Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "PlayerSpawner.cs",
+              "DocumentMoniker": "E:\\Create with code\\My project\\Assets\\Scripts\\PlayerSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerSpawner.cs",
+              "ToolTip": "E:\\Create with code\\My project\\Assets\\Scripts\\PlayerSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerSpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T08:17:17.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TestEnemyProjectile.cs",
+              "DocumentMoniker": "E:\\Create with code\\My project\\Assets\\Scripts\\TestEnemyProjectile.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TestEnemyProjectile.cs",
+              "ToolTip": "E:\\Create with code\\My project\\Assets\\Scripts\\TestEnemyProjectile.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TestEnemyProjectile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T10:58:52.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "TestEnemyShooting.cs",
               "DocumentMoniker": "E:\\Create with code\\My project\\Assets\\Scripts\\TestEnemyShooting.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TestEnemyShooting.cs",
@@ -67,12 +99,11 @@
               "RelativeToolTip": "Assets\\Scripts\\TestEnemyShooting.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T08:33:08.367Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T08:33:08.367Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "CameraFollowPlayer.cs",
               "DocumentMoniker": "E:\\Create with code\\My project\\Assets\\Scripts\\CameraFollowPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraFollowPlayer.cs",
@@ -84,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "TestProjectile.cs",
               "DocumentMoniker": "E:\\Create with code\\My project\\Assets\\Scripts\\TestProjectile.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TestProjectile.cs",
@@ -92,12 +123,11 @@
               "RelativeToolTip": "Assets\\Scripts\\TestProjectile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T11:51:41.898Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T11:51:41.898Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "TestSpell.cs",
               "DocumentMoniker": "E:\\Create with code\\My project\\Assets\\Scripts\\TestSpell.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TestSpell.cs",
@@ -109,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "EnemyRecieveDamage.cs",
               "DocumentMoniker": "E:\\Create with code\\My project\\Assets\\Scripts\\EnemyRecieveDamage.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyRecieveDamage.cs",
@@ -121,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "E:\\Create with code\\My project\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
@@ -129,12 +159,11 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAwwDYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T09:42:59.491Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T09:42:59.491Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "MainMenu.cs",
               "DocumentMoniker": "E:\\Create with code\\My project\\Assets\\Scripts\\MainMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu.cs",
