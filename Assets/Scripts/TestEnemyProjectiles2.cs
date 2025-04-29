@@ -17,6 +17,17 @@ public class TestEnemyProjectiles2 : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
     }
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag != "Enemy")
+        {
+            if (collision.tag == "Player")
+            {
+                PlayerStats.playerStats.DealDamage(damage);
+            }
+            Destroy(gameObject);
+        }
+    }
 
     void Update()
     {
