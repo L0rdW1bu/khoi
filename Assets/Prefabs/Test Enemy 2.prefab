@@ -184,9 +184,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectile2: {fileID: 3492668692186443447, guid: 5b2a7cc41e4e6c043b632dcb2d038568, type: 3}
-  player2: {fileID: 0}
-  minDamage2: 10
-  maxDamage2: 30
+  player2: {fileID: 7443673194229247566, guid: 694a3b4b65ed67c4ab5c7dcc4a0f2520, type: 3}
+  minDamage2: 2
+  maxDamage2: 5
   projectileForce2: 4
   cooldown2: 5
 --- !u!1 &4557744475949353332
