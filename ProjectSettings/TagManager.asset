@@ -6,6 +6,7 @@ TagManager:
   tags:
   - settingsPanel
   - Enemy
+  - Projectile
   layers:
   - Default
   - TransparentFX
@@ -13,11 +14,11 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Projectile
+  - Enemy
+  - Wall
+  - HealIteam
   - 
   - 
   - 
@@ -42,4 +43,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: ForeGround
+    uniqueID: 2241358789
     locked: 0

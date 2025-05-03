@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 2447897568991594261}
   - component: {fileID: 3672524179493007757}
   - component: {fileID: -7754945075173176168}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Test Chasing
-  m_TagString: Untagged
+  m_TagString: Projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -176,6 +176,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 10
-  target: {fileID: 0}
+  target: {fileID: 2526006812459751814, guid: 694a3b4b65ed67c4ab5c7dcc4a0f2520, type: 3}
   rotateSpeed: 500
   moveSpeed: 10

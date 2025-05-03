@@ -9,6 +9,11 @@ public class EnemyRecieveDamage : MonoBehaviour
     public float maxHealth;
     public GameObject healthBar;
     public Slider healthBarSlider;
+    public GameObject healPotionPrefab;
+    public GameObject manaPotionPrefab;
+
+    [Range(0f, 1f)] public float dropChance = 0.2f; // 20% drop chance
+    [Range(0f, 1f)] public float manaDropChance = 0.5f; // 50% of drops are mana
     void Start()
     {
         health = maxHealth;   
@@ -43,6 +48,16 @@ public class EnemyRecieveDamage : MonoBehaviour
         if(health <=0)
         {
             Destroy(gameObject);
+            TryDropPotion();
+        }
+    }
+    void TryDropPotion()
+    {
+        float roll = Random.value;
+        if (roll <= dropChance)
+        {
+            GameObject potionToDrop = (Random.value <= manaDropChance) ? manaPotionPrefab : healPotionPrefab;
+            Instantiate(potionToDrop, transform.position, Quaternion.identity);
         }
     }
 }

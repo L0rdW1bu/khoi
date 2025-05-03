@@ -5,27 +5,78 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     private Vector2 targetPos;
+    private Rigidbody2D rb;
+    private bool isDashing = false;
+    private Vector2 dashDir;
     public float cost;
     public float dashRange;
     public float speed;
     private Vector2 direction;
     private Animator animator;
+    private int dashFrameCounter = 0;
+    private int playerLayer;
+    private int enemyLayer;
+    private int projectileLayer;
+
+
+
     private enum Facing  {UP,DOWN,LEFT,RIGHT};
     private Facing FacingDir = Facing.LEFT;
     void Start()
     {
         animator = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
+        playerLayer = LayerMask.NameToLayer("Player");
+        enemyLayer = LayerMask.NameToLayer("Enemy");
+        projectileLayer = LayerMask.NameToLayer("Projectile");
+
     }
-    void Update()
+    void FixedUpdate()
     {
-        TakeInput();
+        if (isDashing)
+        {
+            if (dashFrameCounter == 0)
+            {
+                int wallMask = LayerMask.GetMask("Wall");
+                RaycastHit2D hit = Physics2D.Raycast(rb.position, dashDir, dashRange, wallMask);
+                Debug.DrawRay(rb.position, dashDir * dashRange, Color.red);
+
+                Physics2D.IgnoreLayerCollision(playerLayer, enemyLayer, true);
+                Physics2D.IgnoreLayerCollision(playerLayer, projectileLayer, true);
+
+                if (hit.collider == null)
+                {
+                    rb.MovePosition(rb.position + dashDir * dashRange);
+                }
+                else
+                {
+                    float distanceToWall = hit.distance;
+                    rb.MovePosition(rb.position + dashDir * distanceToWall);
+                }
+
+                dashFrameCounter++;
+                return;
+            }
+            else
+            {
+                Physics2D.IgnoreLayerCollision(playerLayer, enemyLayer, false);
+                Physics2D.IgnoreLayerCollision(playerLayer, projectileLayer, false);
+
+                isDashing = false;
+                dashFrameCounter = 0;
+                return;
+            }
+        }
+
         Move();
     }
+
     private void Move()
     {
-        transform.Translate(direction * speed * Time.deltaTime);
-        if(direction.x != 0 || direction.y !=0)
+        if (direction != Vector2.zero)
         {
+            Vector2 newPos = rb.position + direction.normalized * speed * Time.fixedDeltaTime;
+            rb.MovePosition(newPos);
             SetAnimatorMovement(direction);
         }
         else
@@ -33,11 +84,33 @@ public class PlayerMovement : MonoBehaviour
             animator.SetLayerWeight(1, 0);
         }
     }
-    private void TakeInput()
+    private Vector2 FacingToVector2(Facing face)
+    {
+        switch (face)
+        {
+            case Facing.UP: return Vector2.up;
+            case Facing.DOWN: return Vector2.down;
+            case Facing.LEFT: return Vector2.left;
+            case Facing.RIGHT: return Vector2.right;
+            default: return Vector2.zero;
+        }
+    }
+    void Update()
+    {
+        TakeInput();
+
+        // Debugging the dash direction
+        if (isDashing)
+        {
+            Debug.Log("Dashing in direction: " + dashDir);
+        }
+    }
+
+    void TakeInput()
     {
         direction = Vector2.zero;
 
-        if(Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.W))
         {
             direction += Vector2.up;
             FacingDir = Facing.UP;
@@ -57,30 +130,18 @@ public class PlayerMovement : MonoBehaviour
             direction += Vector2.right;
             FacingDir = Facing.RIGHT;
         }
+
         if (Input.GetKeyDown(KeyCode.Space) && PlayerStats.playerStats.mana >= cost)
         {
+            Debug.Log("Attempting to dash with mana: " + PlayerStats.playerStats.mana);
             PlayerStats.playerStats.UseSkill(cost);
-            Vector2 currentPos = transform.position;
-            targetPos = Vector2.zero;
-            if(FacingDir == Facing.UP)
-            {
-                targetPos.y = 1;
-            }
-            else if (FacingDir == Facing.DOWN)
-            {
-                targetPos.y = -1;
-            }
-            else if (FacingDir == Facing.LEFT)
-            {
-                targetPos.x = -1;
-            }
-            else if (FacingDir == Facing.RIGHT)
-            {
-                targetPos.x = 1;
-            }
-            transform.Translate(targetPos * dashRange);
+            dashDir = direction != Vector2.zero ? direction.normalized : FacingToVector2(FacingDir);
+            Debug.Log("Dash direction: " + dashDir);
+            isDashing = true;
+            dashFrameCounter = 0;
         }
     }
+
     private void SetAnimatorMovement(Vector2 direction)
     {
         animator.SetLayerWeight(1, 1);
@@ -88,6 +149,6 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("yDir", direction.y);
 
     }
-
+    
 
 }

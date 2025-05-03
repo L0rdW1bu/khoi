@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5479019588333548819}
   - component: {fileID: 6745621409486577971}
   - component: {fileID: 2936867089203128661}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Test Enemy 2
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -47,7 +47,7 @@ Animator:
   m_GameObject: {fileID: 1480318822727369966}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b78414e995c47c1468ef833999184f32, type: 2}
+  m_Controller: {fileID: 9100000, guid: 161a302d612fce84eb00c7c7a473c048, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -99,7 +99,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1345373750, guid: dff0a035baef6bf42be36771903fd0d1, type: 3}
+  m_Sprite: {fileID: -1550798102, guid: 13b964b6f6c490d4fb6ba1d8e6f2ce53, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -146,7 +146,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.14, y: 0.21}
+    oldSize: {x: 0.12, y: 0.16}
     newSize: {x: 0.14, y: 0.21}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -171,6 +171,10 @@ MonoBehaviour:
   maxHealth: 100
   healthBar: {fileID: 7621848706245017282}
   healthBarSlider: {fileID: 8321383993851128100}
+  healPotionPrefab: {fileID: 3842198006373733895, guid: acbb271d50da17b47af03f2ab72341c0, type: 3}
+  manaPotionPrefab: {fileID: 7026711774534535599, guid: c9284b444898dc14ab55560a744d0e92, type: 3}
+  dropChance: 0.3
+  manaDropChance: 0.5
 --- !u!114 &2936867089203128661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -200,7 +204,7 @@ GameObject:
   - component: {fileID: 4952702753168109638}
   - component: {fileID: 7291693816960026463}
   - component: {fileID: 2464784201119470892}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -222,7 +226,7 @@ RectTransform:
   m_Father: {fileID: 5593220630465751184}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -275,7 +279,7 @@ GameObject:
   - component: {fileID: 4068398301415904144}
   - component: {fileID: 3668679544601101134}
   - component: {fileID: 3172283362162515690}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -349,7 +353,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7168166792724830943}
   - component: {fileID: 8321383993851128100}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HealthBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -438,7 +442,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5593220630465751184}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -474,7 +478,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6127047003719420592}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Handle Slide Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -512,7 +516,7 @@ GameObject:
   - component: {fileID: 7258430465276663994}
   - component: {fileID: 3314229074640699847}
   - component: {fileID: 1710778267577812992}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
