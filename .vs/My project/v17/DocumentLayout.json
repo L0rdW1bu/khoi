@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "E:\\Create with code\\My project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|e:\\create with code\\my project\\assets\\scripts\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|E:\\Create with code\\My project\\assets\\scripts\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|E:\\Create with code\\My project\\assets\\scripts\\enemyrecievedamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyrecievedamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|E:\\Create with code\\My project\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|e:\\create with code\\my project\\assets\\scripts\\testenemyshooting2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|E:\\Create with code\\My project\\assets\\scripts\\enemyrecievedamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyrecievedamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|E:\\Create with code\\My project\\assets\\scripts\\testenemyprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\testenemyprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|E:\\Create with code\\My project\\assets\\scripts\\testenemyshooting2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\testenemyshooting2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|E:\\Create with code\\My project\\assets\\scripts\\testenemyshooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\testenemyshooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|E:\\Create with code\\My project\\assets\\scripts\\testenemyprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\testenemyprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|E:\\Create with code\\My project\\assets\\scripts\\testprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -60,7 +60,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerStats.cs",
               "ToolTip": "E:\\Create with code\\My project\\Assets\\Scripts\\PlayerStats.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerStats.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-01T13:32:19.298Z",
               "EditorCaption": ""
@@ -68,19 +68,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "TestEnemyShooting2.cs",
-              "DocumentMoniker": "E:\\Create with code\\My project\\Assets\\Scripts\\TestEnemyShooting2.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TestEnemyShooting2.cs",
-              "ToolTip": "E:\\Create with code\\My project\\Assets\\Scripts\\TestEnemyShooting2.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TestEnemyShooting2.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T13:01:48.842Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "TestEnemyProjectile.cs",
               "DocumentMoniker": "E:\\Create with code\\My project\\Assets\\Scripts\\TestEnemyProjectile.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TestEnemyProjectile.cs",
@@ -88,12 +75,11 @@
               "RelativeToolTip": "Assets\\Scripts\\TestEnemyProjectile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T10:58:52.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T10:58:52.1Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "TestEnemyShooting.cs",
               "DocumentMoniker": "E:\\Create with code\\My project\\Assets\\Scripts\\TestEnemyShooting.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TestEnemyShooting.cs",
@@ -101,8 +87,7 @@
               "RelativeToolTip": "Assets\\Scripts\\TestEnemyShooting.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAQwBAAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T08:33:08.367Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T08:33:08.367Z"
             },
             {
               "$type": "Document",
@@ -142,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "EnemyRecieveDamage.cs",
               "DocumentMoniker": "E:\\Create with code\\My project\\Assets\\Scripts\\EnemyRecieveDamage.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyRecieveDamage.cs",
@@ -150,21 +135,31 @@
               "RelativeToolTip": "Assets\\Scripts\\EnemyRecieveDamage.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAowCcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T11:02:27.387Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T11:02:27.387Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "E:\\Create with code\\My project\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
               "ToolTip": "E:\\Create with code\\My project\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAwwDYAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAuwBkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T09:42:59.491Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T09:42:59.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TestEnemyShooting2.cs",
+              "DocumentMoniker": "E:\\Create with code\\My project\\Assets\\Scripts\\TestEnemyShooting2.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TestEnemyShooting2.cs",
+              "ToolTip": "E:\\Create with code\\My project\\Assets\\Scripts\\TestEnemyShooting2.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TestEnemyShooting2.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T13:01:48.842Z"
             },
             {
               "$type": "Document",

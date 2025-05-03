@@ -43,6 +43,9 @@ public class PlayerStats : MonoBehaviour
         CheckDeath();
         SetHealthUI();
     }
+    
+
+
     public void UseSkill(float cost)
     {
         mana -= cost;

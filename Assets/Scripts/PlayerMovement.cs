@@ -31,6 +31,7 @@ public class PlayerMovement : MonoBehaviour
         projectileLayer = LayerMask.NameToLayer("Projectile");
 
     }
+
     void FixedUpdate()
     {
         if (isDashing)
