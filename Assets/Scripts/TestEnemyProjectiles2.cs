@@ -19,9 +19,9 @@ public class TestEnemyProjectiles2 : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag != "Enemy")
-        {
-            if (collision.tag == "Player")
+       if (collision.tag != "Enemy" && collision.tag != "Projectile")
+       {
+                if (collision.tag == "Player")
             {
                 PlayerStats.playerStats.DealDamage(damage);
             }

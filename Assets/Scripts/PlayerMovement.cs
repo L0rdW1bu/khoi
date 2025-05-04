@@ -100,11 +100,7 @@ public class PlayerMovement : MonoBehaviour
     {
         TakeInput();
 
-        // Debugging the dash direction
-        if (isDashing)
-        {
-            Debug.Log("Dashing in direction: " + dashDir);
-        }
+       
     }
 
     void TakeInput()
@@ -134,10 +130,8 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space) && PlayerStats.playerStats.mana >= cost)
         {
-            Debug.Log("Attempting to dash with mana: " + PlayerStats.playerStats.mana);
             PlayerStats.playerStats.UseSkill(cost);
             dashDir = direction != Vector2.zero ? direction.normalized : FacingToVector2(FacingDir);
-            Debug.Log("Dash direction: " + dashDir);
             isDashing = true;
             dashFrameCounter = 0;
         }

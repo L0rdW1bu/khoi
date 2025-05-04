@@ -43,7 +43,7 @@ public class EnemyRecieveDamage : MonoBehaviour
     {
         return health / maxHealth;
     }
-    private void CheckDeath()
+    public void CheckDeath()
     {
         if(health <=0)
         {

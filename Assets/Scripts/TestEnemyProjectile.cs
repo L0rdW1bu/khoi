@@ -9,7 +9,7 @@ public class TestEnemyProjectile : MonoBehaviour
     
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag != "Enemy")
+        if (collision.tag != "Enemy" && collision.tag != "Projectile")
         {
             if(collision.tag == "Player")
             {
