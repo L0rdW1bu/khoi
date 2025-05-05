@@ -13,6 +13,12 @@ public class TestProjectile : MonoBehaviour
             if(collision.GetComponent<EnemyRecieveDamage>() !=null)
             {
                 collision.GetComponent<EnemyRecieveDamage>().DealDamage(damage);
+
+            }
+            else if (collision.GetComponent<EnemyRecieveDamage2>() != null)
+            {
+                collision.GetComponent<EnemyRecieveDamage2>().DealDamage(damage);
+
             }
             Destroy(gameObject);
         }

@@ -173,8 +173,10 @@ MonoBehaviour:
   healthBarSlider: {fileID: 8321383993851128100}
   healPotionPrefab: {fileID: 3842198006373733895, guid: acbb271d50da17b47af03f2ab72341c0, type: 3}
   manaPotionPrefab: {fileID: 7026711774534535599, guid: c9284b444898dc14ab55560a744d0e92, type: 3}
+  animator: {fileID: 0}
   dropChance: 0.3
   manaDropChance: 0.5
+  deathAnimationTime: 0.5
 --- !u!114 &2936867089203128661
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -25,7 +25,9 @@ public class EnemyRecieveDamage2 : MonoBehaviour
 
     public void DealDamage(float damage)
     {
-        health -= damage;  
+        health -= damage;
+        animator.SetTrigger("TakeDamage");
+
         healthBar.SetActive(true);  
         healthBarSlider.value = CalculateHealthPercentage();  
         CheckDeath();  

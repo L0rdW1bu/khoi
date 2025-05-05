@@ -224,7 +224,7 @@ Animator:
   m_GameObject: {fileID: 1480318822727369966}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 161a302d612fce84eb00c7c7a473c048, type: 2}
+  m_Controller: {fileID: 9100000, guid: 36dceb30da311934298827e927bf6b81, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -350,8 +350,10 @@ MonoBehaviour:
   healthBarSlider: {fileID: 1954804085949507430}
   healPotionPrefab: {fileID: 3842198006373733895, guid: acbb271d50da17b47af03f2ab72341c0, type: 3}
   manaPotionPrefab: {fileID: 7026711774534535599, guid: c9284b444898dc14ab55560a744d0e92, type: 3}
+  animator: {fileID: 0}
   dropChance: 0.3
   manaDropChance: 0.3
+  deathAnimationTime: 0.5
 --- !u!114 &-995780437521653771
 MonoBehaviour:
   m_ObjectHideFlags: 0

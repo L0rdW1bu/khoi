@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\GameMake\\khoi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|c:\\gamemake\\khoi\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|c:\\gamemake\\khoi\\assets\\scripts\\enemyrecievedamage2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyrecievedamage2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|C:\\GameMake\\khoi\\assets\\scripts\\testprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\testprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|C:\\GameMake\\khoi\\assets\\scripts\\testspell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\testspell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|c:\\gamemake\\khoi\\assets\\scripts\\enemyrecievedamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyrecievedamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|C:\\GameMake\\khoi\\assets\\scripts\\manapotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manapotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|C:\\GameMake\\khoi\\assets\\scripts\\healpotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healpotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|C:\\GameMake\\khoi\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|C:\\GameMake\\khoi\\assets\\scripts\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,16 +39,8 @@
       "RelativeMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\testenemyprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|C:\\GameMake\\khoi\\assets\\scripts\\testspell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\testspell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|C:\\GameMake\\khoi\\assets\\scripts\\testenemyshooting2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\testenemyshooting2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|C:\\GameMake\\khoi\\assets\\scripts\\enemyrecievedamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyrecievedamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|C:\\GameMake\\khoi\\assets\\scripts\\testenemyprojectiles2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\GameMake\\khoi\\Assets\\Scripts\\NPCController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\NPCController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|C:\\GameMake\\khoi\\assets\\scripts\\testprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\testprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA37FDFD-0A99-D3E3-4040-9FFF2C2A65A1}|Assembly-CSharp.csproj|C:\\GameMake\\khoi\\assets\\scripts\\testenemyshooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,7 +70,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "HealPotion.cs",
               "DocumentMoniker": "C:\\GameMake\\khoi\\Assets\\Scripts\\HealPotion.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HealPotion.cs",
@@ -71,62 +79,87 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-02T13:51:58.906Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnemyRecieveDamage2.cs",
+              "DocumentMoniker": "C:\\GameMake\\khoi\\Assets\\Scripts\\EnemyRecieveDamage2.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyRecieveDamage2.cs",
+              "ToolTip": "C:\\GameMake\\khoi\\Assets\\Scripts\\EnemyRecieveDamage2.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyRecieveDamage2.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T16:08:27.146Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "ManaPotion.cs",
+              "DocumentMoniker": "C:\\GameMake\\khoi\\Assets\\Scripts\\ManaPotion.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ManaPotion.cs",
+              "ToolTip": "C:\\GameMake\\khoi\\Assets\\Scripts\\ManaPotion.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ManaPotion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T01:48:25.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\GameMake\\khoi\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
               "ToolTip": "C:\\GameMake\\khoi\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAADwvzAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAIwDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T17:46:42.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T17:46:42.251Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "EnemyRecieveDamage.cs",
               "DocumentMoniker": "C:\\GameMake\\khoi\\Assets\\Scripts\\EnemyRecieveDamage.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyRecieveDamage.cs",
               "ToolTip": "C:\\GameMake\\khoi\\Assets\\Scripts\\EnemyRecieveDamage.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnemyRecieveDamage.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAgwBAAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAswD0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T02:06:26.315Z"
+              "WhenOpened": "2025-04-29T02:06:26.315Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "PlayerStats.cs",
               "DocumentMoniker": "C:\\GameMake\\khoi\\Assets\\Scripts\\PlayerStats.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerStats.cs",
               "ToolTip": "C:\\GameMake\\khoi\\Assets\\Scripts\\PlayerStats.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerStats.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAADEAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwDEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T02:06:11.491Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T02:06:11.491Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "TestSpell.cs",
               "DocumentMoniker": "C:\\GameMake\\khoi\\Assets\\Scripts\\TestSpell.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TestSpell.cs",
               "ToolTip": "C:\\GameMake\\khoi\\Assets\\Scripts\\TestSpell.cs",
               "RelativeToolTip": "Assets\\Scripts\\TestSpell.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T01:07:14.649Z"
+              "WhenOpened": "2025-04-28T01:07:14.649Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "TestEnemyShooting2.cs",
               "DocumentMoniker": "C:\\GameMake\\khoi\\Assets\\Scripts\\TestEnemyShooting2.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TestEnemyShooting2.cs",
@@ -138,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "TestEnemyProjectile.cs",
               "DocumentMoniker": "C:\\GameMake\\khoi\\Assets\\Scripts\\TestEnemyProjectile.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TestEnemyProjectile.cs",
@@ -150,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "PlayerSpawner.cs",
               "DocumentMoniker": "C:\\GameMake\\khoi\\Assets\\Scripts\\PlayerSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerSpawner.cs",
@@ -162,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "TestEnemyProjectiles2.cs",
               "DocumentMoniker": "C:\\GameMake\\khoi\\Assets\\Scripts\\TestEnemyProjectiles2.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TestEnemyProjectiles2.cs",
@@ -174,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "NPCController.cs",
               "DocumentMoniker": "C:\\GameMake\\khoi\\Assets\\Scripts\\NPCController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NPCController.cs",
@@ -185,19 +218,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "TestProjectile.cs",
               "DocumentMoniker": "C:\\GameMake\\khoi\\Assets\\Scripts\\TestProjectile.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TestProjectile.cs",
               "ToolTip": "C:\\GameMake\\khoi\\Assets\\Scripts\\TestProjectile.cs",
               "RelativeToolTip": "Assets\\Scripts\\TestProjectile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBMAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T01:59:02.649Z"
+              "WhenOpened": "2025-04-28T01:59:02.649Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "TestEnemyShooting.cs",
               "DocumentMoniker": "C:\\GameMake\\khoi\\Assets\\Scripts\\TestEnemyShooting.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TestEnemyShooting.cs",

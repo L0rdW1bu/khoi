@@ -11,16 +11,24 @@ public class EnemyRecieveDamage : MonoBehaviour
     public Slider healthBarSlider;
     public GameObject healPotionPrefab;
     public GameObject manaPotionPrefab;
+    public Animator animator;
+
 
     [Range(0f, 1f)] public float dropChance = 0.2f; // 20% drop chance
     [Range(0f, 1f)] public float manaDropChance = 0.5f; // 50% of drops are mana
+    public float deathAnimationTime = 1f;
+
     void Start()
     {
-        health = maxHealth;   
+        health = maxHealth;
+        animator = GetComponent<Animator>();
+
     }
     public void DealDamage(float damage)
     {
         healthBar.SetActive(true);
+        animator.SetTrigger("TakeDamage");
+
         healthBarSlider.value = CaculateHealthPercentage();
         health -= damage;
         CheckDeath();
@@ -43,13 +51,29 @@ public class EnemyRecieveDamage : MonoBehaviour
     {
         return health / maxHealth;
     }
-    public void CheckDeath()
+    private void CheckDeath()
     {
-        if(health <=0)
+        if (health <= 0)
         {
-            Destroy(gameObject);
+            if (animator != null)
+            {
+                animator.SetTrigger("Die");
+
+            }
+
+
+            StartCoroutine(WaitForDeathAnimation());
             TryDropPotion();
         }
+    }
+
+    private IEnumerator WaitForDeathAnimation()
+    {
+
+        yield return new WaitForSeconds(deathAnimationTime);
+
+
+        Destroy(gameObject);
     }
     void TryDropPotion()
     {
